@@ -62,6 +62,6 @@
 .flex-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;   /* 👈 centra vertical */
-    height: 60vh;          /* 👈 espacio donde vive la bola */
+    align-items: center;   /* centra vertical */
+    height: 60vh;          /* espacio donde vive la bola */
 }
