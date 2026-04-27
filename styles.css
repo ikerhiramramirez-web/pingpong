@@ -1,0 +1,54 @@
+html{
+    background-color: black;
+    border: 5px white solid;
+    margin: 0px , 0px , 0px, 0px;
+    height: 100%;
+
+}
+
+.title {
+    color: antiquewhite;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.flex-button{
+    display: flex;
+    justify-content: center; /* centrado horizontal */
+    align-items: flex-end;   /* abajo vertical */
+    height: 65vh;           /* ocupa toda la pantalla */
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja-container {
+    width: 50%;
+    height: 80%;
+}
+
+#caja_dos {
+    display: flex;
+    justify-content: end;
+    height: 80%;
+}
+
+#caja_boton {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    border: 5px solid white;
+    background-color: white;
+    color: white;
+    width: 35px;
+    height: 200px;
+}
