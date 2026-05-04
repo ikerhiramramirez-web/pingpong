@@ -6,11 +6,11 @@
 }
 
 .title {
-    color: antiquewhite;
+    color: white;
     font-size: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: space-around;
 }
 
 .flex-button{
@@ -50,6 +50,7 @@
     color: white;
     width: 35px;
     height: 200px;
+    position: absolute;
 }
 
 .ball {
